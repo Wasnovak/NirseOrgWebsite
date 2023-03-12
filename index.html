@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
-    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Learn Nirse</title>
+    <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <style> body{
+      background: url("background.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }</style>
   </head>
   <body>
     <main>
@@ -14,11 +19,13 @@
 	    <p><center>Use this website to learn the Nirse <a href="https://www.wikipedia.org/wiki/Constructed_language">conlang</a>.
 	       There are many sections to explore to fully learn this language: grammar, phonology, writing system, and even a dictionary 
 	       to translate words between Nirse and English (works both sides).</center></p>
-	     <button onclick="document.location='./phonology.html'"><center>Phonology</center></button>
-	     <button onclick="document.location='./grammar.html'"><center>Grammar</center></button>
-	     <button onclick="document.location='./writingsystem.html'"><center>Writing system</center></button>
-	     <button onclick="document.location='./dictionary.html'"><center>Dictionary</center></button>
+	    <div class="buttons">
+         <button onclick="document.location='./phonology.html'">Phonology</button>
+	     <button onclick="document.location='./grammar.html'">Grammar</button>
+	     <button onclick="document.location='./writingsystem.html'">Writing system</button>
+	     <button onclick="document.location='./dictionary.html'">Dictionary</button>
+      </div>
     </main>
-	<script src="./JS/script.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
