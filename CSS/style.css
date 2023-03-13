@@ -1,7 +1,88 @@
 .buttons {
-  border: 2px solid;
-  margin: auto;
-  padding: 10px;
-  width: 40%;
   text-align: center;
+}
+
+.massivetext {
+  text-align: center;
+}
+
+.initialtext {
+  text-align: center;
+  font-size: large;
+}
+
+.phonology {
+  background-color: transparent;
+  transition-duration: 0.4s;
+  border-radius: 8px;
+  border: 3px solid #921158;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Georgia";
+}
+
+.phonology:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #921158;
+  color: white;
+}
+
+.grammar {
+  background-color: transparent;
+  transition-duration: 0.4s;
+  border-radius: 8px;
+  border: 3px solid #d67418;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Georgia";
+}
+
+.grammar:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #d67418;
+  color: white;
+}
+
+.writingsystem {
+  background-color: transparent;
+  transition-duration: 0.4s;
+  border-radius: 8px;
+  border: 3px solid #ec0b16;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Georgia";
+}
+
+.writingsystem:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #ec0b16;
+  color: white;
+}
+
+.dictionary {
+  background-color: transparent;
+  transition-duration: 0.4s;
+  border-radius: 8px;
+  border: 3px solid rgb(22, 82, 131);
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Georgia";
+}
+
+.dictionary:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: rgb(22, 82, 131);
+  color: white;
 }
