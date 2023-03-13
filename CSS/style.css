@@ -4,11 +4,13 @@
 
 .massivetext {
   text-align: center;
+  color: white;
 }
 
 .initialtext {
   text-align: center;
   font-size: large;
+  color: white;
 }
 
 .phonology {
